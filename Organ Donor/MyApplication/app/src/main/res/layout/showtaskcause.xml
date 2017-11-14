@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:hint="Name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddress"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:hint="Address" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDonatingSelling"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:hint="Donating/Selling" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvChargingPrice"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:hint="Charging Price" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmail"
+            android:layout_weight="1"
+            android:hint="Email"
+            android:textSize="24sp"
+        android:textColor="?attr/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPhone"
+        android:layout_weight="12"
+        android:textSize="24sp"
+        android:hint="Phone" />
+
+</LinearLayout>
+
+
